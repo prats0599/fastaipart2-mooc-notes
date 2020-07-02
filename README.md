@@ -15,6 +15,10 @@ The description of each file is as below:
 - [07_batchnorm](07_mybatchnorm.ipynb): Batchnorm, Instance Norm, Layer Norm, Group Norm
 - [07a_lsuv](07a_mylsuv.ipynb): Implementing the [All you need is a good init](https://arxiv.org/abs/1511.06422) algorithm(Layerwise Sequential Unit variance).
 - [08_datablock](08_mydatablock.ipynb):Recreating parts of the DataBlock api present in the fastai library.
-   
-     
+- [09_ optimizers](09_myoptimizers.ipynb): Implemented optimizers in a flexible way. Started with implementing plain SGD, followed by adding momentum and weight decay to it. We then implemented the ADAM optimizer from scratch and finally ended with the LAMB optimizer which was mentioned [here](https://arxiv.org/abs/1904.00962).
+- [09b_learner](09b_mylearner.ipynb): Refactored a bit of code and incorporated the learner and Runner class created previously into one Learner class.
+- [09c_addprogressbar](09c_addprogressbar.ipynb): Added the progress bar graphic which is depicted during training.
+- [10_augmentation](10_myaugmentation.ipynb): Studied and implemented several data augmentation techniques present in the fastai library such as zooming, flipping, RandomResizeCrop and Perspective warping. Applied Data augmentation to images on the GPU thereby improving execution time by magnitudes.
+- [10b_mixup_data_augmentation](10b_mixup_augmentation.ipynb): Implemented MixUp Data augmentation and Label Smoothing which improved model accuracy on training.
+  
 All credits to Jeremy Howard and the [fastai](https://www.fast.ai/) team!
