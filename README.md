@@ -22,7 +22,7 @@ The description of each file is as below:
 - [10_augmentation](10_myaugmentation.ipynb): Studied and implemented several data augmentation techniques(for images) present in the fastai library such as zooming, flipping, RandomResizeCrop and Perspective warping. Applied Data augmentation to images on the GPU which improved execution time by magnitudes.
 - [10b_mixup_data_augmentation](10b_mixup_augmentation.ipynb): Studied & Implemented MixUp Data augmentation and Label Smoothing which improved model accuracy on training.
 - [10c_FP16](10c_FP16.ipynb): Applied Mixed Precision Training to the model using [Nvidia's Apex libray](https://github.com/NVIDIA/apex)
-- [11_train_imagenette](11_train_imagenette.ipynb): Studied and implemented different types of resnets from the [Bag of tricks for Image classfication paper](https://arxiv.org/abs/1812.01187)
+- [11_train_imagenette](11_train_imagenettee.ipynb): Studied and implemented different types of resnets from the [Bag of tricks for Image classfication paper](https://arxiv.org/abs/1812.01187)
 - [11a_transfer_learning](11a_transfer_learning.ipynb): Implemented transfer learning from scratch and used a model pretrained on the Imagewoof dataset(10 classes of dog breeds) and trained it on the [Cats and Dogs breed classifciation Oxford dataset](https://www.kaggle.com/zippyz/cats-and-dogs-breeds-classification-oxford-dataset).  
        
 ### NLP
