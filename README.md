@@ -26,11 +26,11 @@ The description of each file is as below:
 - [11a_transfer_learning](11a_transfer_learning.ipynb): Implemented transfer learning from scratch and used a model pretrained on the Imagewoof dataset(10 classes of dog breeds) and trained it on the [Cats and Dogs breed classifciation Oxford dataset](https://www.kaggle.com/zippyz/cats-and-dogs-breeds-classification-oxford-dataset).  
        
 ### NLP
-- [12_text](12_text.ipynb):
-- [12a_awd_lstm](12a_awd_lstm.ipynb):
-- [12b_lang_model_pretrained](12b_lang_model_pretrained.ipynb):
-- [12c_ulmfit_from_scratch](12c_ulmfit_from_scratch):
-
+- [12_text](nlp/12_text.ipynb): Preprocessing Text via Tokenization and Numericalization from scratch. Learnt how to batch nlp data for classfication purposes.
+- [12a_awd_lstm](nlp/12a_awd_lstm.ipynb): Built the AWD-LSTM model
+- [12b_lm_pretrain](nlp/12b_lm_pretrain.ipynb): Pretrain the Language model on Wikitext103 dataset.
+- [12c_ulmfit](nlp/12c_ulmfit.ipynb): Finetuning the Language model on the IMDB corpus, how to deal with padding; Copy the weights of the encoder of the language model and attach it to a a new head followed by applying transfer learning and training the model to classify IMDB reviews. Achieved close to state of the art accuracy(92.8%).
+ 
   
 ## Research Papers Implemented:
 * [Delving Deep into Rectifiers: Surpassing Human-Level Performance on ImageNet Classification](https://arxiv.org/abs/1502.01852)
